@@ -1,0 +1,237 @@
+html{
+    scroll-behavior: smooth;
+   
+}
+
+body {
+   background-image: url('../assets/noche-cielo.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100vh;
+  background-attachment: fixed;
+   height: 100vh;
+}
+
+.home {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+   
+   
+}
+
+
+.name {
+    font-family: serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ccd6f6;
+    transition-delay: 700ms;
+}
+
+.smDes {
+    font-family: serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #ccd6f6;
+    transition-delay: 1000ms;
+    line-height: 1.4;
+
+}
+
+
+#skills {
+    display: flex;
+    padding-top: 10%;
+    height: 100vh;
+   
+}
+
+#portafolio  {
+   
+    padding-top: 10%;
+    height: 100vh;
+    
+}
+
+ 
+h1,h2,h3,h4,h5 {
+    color:#ccd6f6;
+
+}
+.navbar {
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+   
+}
+ .navbar .nav-link  {
+    margin-right: 20px;
+    color :'#ccd6f6';
+  
+ }
+
+.card  {
+    background: transparent !important;
+    border: none  !important;
+    color:#ccd6f6;
+    
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255,255,2550,0.2);
+    transition: all 0.6s linear;
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+}
+
+.card-text {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    color :'green'
+}
+
+.card-img-top {
+    height: 190px;
+    transition: all 0.7s ease-in-out;
+}
+.card-img-top:hover {
+    transform: scale(1.14);
+}
+
+.cardPort {
+    width: 100%;
+    height: max-content;
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardPort img {
+    width: 100%;
+    height: initial;
+    display: block;
+    object-fit: cover;
+  }
+  
+.overflow {
+    overflow: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    right: 100px;
+    overflow-x: hidden;
+    
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+  }
+
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #818181;
+
+  }
+  .sidebar2 {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 100px;
+    overflow-x: hidden;
+    
+  }
+  
+
+  .sidebar2 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+  }
+
+  /* Style links on mouse-over */
+  .sidebar2 a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar2::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #818181;
+
+  }
+
+  ul {
+      list-style-type: circle;
+      color: #ccd6f6;
+      font-size: 21px;
+      max-width: 560px;
+      line-height:3;
+  }
+
+.form-contact {
+  width: 100%;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 45px;
+}
+
+
+
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media (max-width: 740px) {
+    .sidebar {
+        display: none;
+    }
+
+    #skills {
+      height: 200vh;
+    }
+    .name {
+        font-family: sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #ccd6f6;
+        transition-delay: 1500ms;
+    }
+
+    .smDes {
+        font-family: sans-serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #ccd6f6;
+        transition-delay: 2000ms;
+        line-height: 1.4;
+    
+    }
+  }
