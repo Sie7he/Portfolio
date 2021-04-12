@@ -21,7 +21,7 @@ export const ContactForm = () => {
                <input id="name" name="name" className="input-text js-input" type="text" placeholder="Nombre" required />
                <ValidationError
                   prefix="name"
-                  field="name"
+                  field="name0"
                   errors={state.errors}
                />
             </div>
