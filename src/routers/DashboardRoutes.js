@@ -4,7 +4,6 @@ import { HomeScreen } from '../components/HomeScreen';
 import { ContactForm } from '../components/ContactoScreen';
 import { NavBar } from '../components/ui/NavBar';
 import { SideBar } from '../components/SideBar';
-import { SideBar2 } from '../components/Siderbar2';
 
 export const DashboardRoutes = () => {
     return (

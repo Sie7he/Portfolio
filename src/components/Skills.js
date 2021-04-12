@@ -17,7 +17,7 @@ export const Skills = () => {
                             <div key={skill.id}>  
                             <h5>{skill.skill}</h5>  
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" style={{width: skill.percentage+'%'}} color-green></div>
+                                <div className="progress-bar" role="progressbar" style={{width: skill.percentage+'%'}}></div>
                             </div>
                             </div>
                             ))

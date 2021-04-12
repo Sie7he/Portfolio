@@ -20,7 +20,9 @@ export const Carrusel = () => {
         <Carousel breakPoints={breakPoints}>
             {
                 port.map( img => (
+                    <div key={img.id}>
                     <Card cardImage={img.image} />
+                    </div>
                 ))
             }
         
