@@ -7,6 +7,8 @@ export const Carrusel = () => {
 
     const breakPoints = [
         { width: 1200, itemsToShow: 1 },
+        { width: 890, itemsToShow: 2 },
+        { width: 700, itemsToShow: 3 },
        
         
       ];
